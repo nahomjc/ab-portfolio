@@ -101,7 +101,7 @@ export default function ChatBox() {
               }}
             >
               <input
-                className="flex-1 px-3 py-2 text-sm rounded-bl-2xl focus:outline-none"
+                className="flex-1 px-3 py-3 text-base rounded-bl-2xl focus:outline-none bg-white text-gray-900 placeholder-gray-400"
                 type="text"
                 placeholder="Type your message..."
                 value={input}
